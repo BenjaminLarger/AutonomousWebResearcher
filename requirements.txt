@@ -1,0 +1,44 @@
+# Core Dependencies for Autonomous Web Researcher
+
+# Web Scraping & Browser Automation
+playwright==1.41.2
+beautifulsoup4==4.12.3
+requests==2.31.0
+lxml==4.9.4
+html2text==2024.2.26
+
+# Vector Storage & Search
+faiss-cpu==1.7.4
+chromadb==0.4.22
+sentence-transformers==2.2.2
+
+# AI/ML Components
+openai==1.12.0
+tiktoken==0.5.2
+numpy==1.26.4
+
+# Web Framework & API
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# Text Processing
+spacy==3.7.2
+nltk==3.8.1
+
+# Utilities
+python-dotenv==1.0.1
+aiohttp==3.9.3
+asyncio==3.4.3
+python-multipart==0.0.9
+
+# Development & Testing
+pytest==8.0.0
+pytest-asyncio==0.23.5
+pytest-mock==3.12.0
+black==24.2.0
+flake8==7.0.0
+
+# Logging & Monitoring
+loguru==0.7.2
