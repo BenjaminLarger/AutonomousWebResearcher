@@ -1,5 +1,5 @@
 # Core Dependencies for Autonomous Web Researcher
-
+pandas==2.3.1
 # Web Scraping & Browser Automation
 playwright==1.41.2
 beautifulsoup4==4.12.3
